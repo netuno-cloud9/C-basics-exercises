@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<locale.h> //Biblioteca de regionalização
-#include <math.h> //Biblioteca de funções matemáticas // struct é sempre antes da função principal. técnica de encapsulamento
+#include<locale.h> //Biblioteca de regionalizaÃ§Ã£o
+#include <math.h> //Biblioteca de funÃ§Ãµes matemÃ¡ticas // struct Ã© sempre antes da funÃ§Ã£o principal. tÃ©cnica de encapsulamento
 
 struct calcula{
 	float n1;
@@ -22,10 +22,10 @@ main(){
 		printf("\n------------------------------------\n");	
 		printf("");
 		printf("[1] SOMA \n");	
-		printf("[2] SUBTRAÇÃO \n");
-		printf("[3] MULTIPLICAÇÃO \n");
-		printf("[4] DIVISÃO \n");
-		printf("[5] POTÊNCIA \n");
+		printf("[2] SUBTRAÃ‡ÃƒO \n");
+		printf("[3] MULTIPLICAÃ‡ÃƒO \n");
+		printf("[4] DIVISÃƒO \n");
+		printf("[5] POTÃŠNCIA \n");
 		printf("[6] SAIR \n");
 		scanf("%i",&op);
 		switch(op){
@@ -37,11 +37,11 @@ main(){
 						printf("\n------------------------------------\n");	
 						
 	
-	    soma operacao; //operacao é o nome da variavel que é do tipo soma dentro de uma estrutura chamada calcula
+	    soma operacao; //operacao Ã© o nome da variavel que Ã© do tipo soma dentro de uma estrutura chamada calcula
 	    
-	    printf("Digite o primeiro número \n");
+	    printf("Digite o primeiro nÃºmero \n");
 	    scanf("%f",&operacao.n1);
-	     printf("Digite o segundo número \n");
+	     printf("Digite o segundo nÃºmero \n");
 	    scanf("%f",&operacao.n2);
 	    
 	    printf(" %.2f + %.2f = %.2f",operacao.n1,operacao.n2,operacao.n1+operacao.n2);
@@ -57,9 +57,9 @@ main(){
 	
 	    
 	    
-	    printf("Digite o primeiro número \n");
+	    printf("Digite o primeiro nÃºmero \n");
 	    scanf("%f",&operacao.n1);
-	     printf("Digite o segundo número \n");
+	     printf("Digite o segundo nÃºmero \n");
 	    scanf("%f",&operacao.n2);
 	    
 	    printf(" %.2f + %.2f = %.2f",operacao.n1,operacao.n2,operacao.n1-operacao.n2);
@@ -75,9 +75,9 @@ main(){
 	
 
 	    
-	    printf("Digite o primeiro número \n");
+	    printf("Digite o primeiro nÃºmero \n");
 	    scanf("%f",&operacao.n1);
-	     printf("Digite o segundo número \n");
+	     printf("Digite o segundo nÃºmero \n");
 	    scanf("%f",&operacao.n2);
 	    
 	    printf(" %.2f + %.2f = %.2f",operacao.n1,operacao.n2,operacao.n1+operacao.n2);
@@ -93,9 +93,9 @@ main(){
 	
 	    
 	    
-	    printf("Digite o primeiro número \n");
+	    printf("Digite o primeiro nÃºmero \n");
 	    scanf("%f",&operacao.n1);
-	     printf("Digite o segundo número \n");
+	     printf("Digite o segundo nÃºmero \n");
 	    scanf("%f",&operacao.n2);
 	    
 	    printf(" %.2f + %.2f = %.2f",operacao.n1,operacao.n2,operacao.n1+operacao.n2);
@@ -109,9 +109,9 @@ main(){
 						
 	
 
-	    printf("Digite o primeiro número \n");
+	    printf("Digite o primeiro nÃºmero \n");
 	    scanf("%f",&operacao.n1);
-	     printf("Digite o segundo número \n");
+	     printf("Digite o segundo nÃºmero \n");
 	    scanf("%f",&operacao.n2);
 	    
 	    res = pow(operacao.n1,operacao.n2);
